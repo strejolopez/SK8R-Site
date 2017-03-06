@@ -1,0 +1,397 @@
+html {
+	box-sizing:border-box;
+}
+*, *:before, *after {
+	box-sizing:inherit;
+}
+body {
+	background-image: url("../Sk8tPics/bg.jpg");
+	padding-top: 7px;
+	padding-left: 500px;
+	width: 1500px;
+
+}
+
+#container10{
+	background-color: ;
+	width:770px;
+	height: 73px;
+	display: flex;
+	margin-left: 150px;
+}
+#facbook1{
+	width: 60px;
+	height: 60px;
+}
+#rss1{
+	width: 60px;
+	height: 60px;
+}
+#twitter1{
+	width: 60px;
+	height: 60px;
+}
+#youtube1{
+	width: 60px;
+	height: 60px;
+}
+.dot{
+	margin-left: 15px;
+    margin-top: 27px;
+    color: white;
+    margin-right: 40px;
+}
+.bolt{
+	color: white;
+	font-size: 5px;
+	font-weight: bold;
+	margin-top: 12px;
+}
+.point1{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+.point2{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+.point3{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+.point4{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+.point5{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: -10px;
+}
+#container10 p{
+	color: white;
+    margin-top: 28px;
+    margin-left: 322px;
+}
+#containertop{
+	background-color: ;
+	overflow:auto;
+	width:930px;
+	height: 60px;
+  	background: ;
+  	display: flex;
+}
+#containertop p{
+	color:rgb(239,232,227);
+	text-align: center;
+    font-size: 19px;
+    margin-top: 5px;
+	
+	
+}
+#containertop div:nth-child(1){
+	width:225px;
+	height: 40px;
+	background-color: rgb(180,41,46);
+	margin-right: 10px;
+	font-size: 50px;
+	
+}
+#containertop div:nth-child(2){
+	width:225px;
+	height: 40px;
+	background-color: rgb(180,41,46);
+	margin-right: 10px;
+}
+#containertop div:nth-child(3){
+	width:225px;
+	height: 40px;
+	background-color: rgb(180,41,46);
+	margin-right: 10px;
+}
+#containertop div:nth-child(4){
+	width:225px;
+	height: 40px;
+	background-color: rgb(180,41,46);
+	margin-right: 10px;
+}
+.logo {
+	background-image: url("../Sk8tPics/stretchedHipster.jpg");	
+	width: 900px;
+	height: 300px;
+	overflow: hidden;
+	border:10px solid white;
+	position:relative;
+}
+.logo img {
+	position:absolute;
+	top:50px;
+	width:350px;
+	height:auto;
+}
+#text-boxes article {
+	background-color: white;
+	top:50px;
+	width:280px;
+	height:300px;
+	font-size: 10px;
+	padding: 8px 10px 18px 10px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left:5px;
+	
+}
+p{
+	font-size: 12px;
+	line-height: 150%;
+	color: rgb(119,119,119);
+}
+.strong {
+	color: rgb(177,38,43);
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+}
+.date {
+	color: rgb(171,171,171);
+}
+.top {
+	color: rgb(88,88,85);
+	font-size: 21px;
+	font-weight: 500;
+}
+#text-boxes{
+	display: flex;
+}
+#container2 {
+	overflow:auto;
+	width:1010px;
+	height: 500px;
+  	background: ;
+  	
+
+}
+.skateboarders{
+	position:relative;
+
+}
+.skateboarders div {
+	background:purple;
+	width: 230px;
+	height:150px;
+	border: 5px solid white;
+	text-align: center;
+	font-family: "Arial Black", Gadget, sans-serif;
+	float:left;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:7px;
+	margin-right:10px;
+}
+.skateboarders div:nth-child(1) {
+	background-image: url("../Sk8tPics/sk8er-4.png");
+	background-position: 297px -8px; 
+	width: 290px;
+	height: 200px;
+	margin-right:2px;
+
+}
+.skateboarders div:nth-child(2) {
+	background-image: url("../Sk8tPics/sk8er-3.png");
+	background-position: 404px -19px; 
+	width: 290px;
+	height: 200px;
+}
+.skateboarders div:nth-child(3) {
+	background-image: url("../Sk8tPics/stretched1.jpg");
+	background-position:  right center; 
+	clear:left;
+	width:600px;
+	height: 210px;
+	margin-top: 0px;
+}
+
+.skateboarders div:nth-child(4) {
+	background-image:url("../Sk8tPics/tallsk8.jpg");
+	height:430px;
+	width: 288px;
+	margin-top:-220px;
+	margin-left: 1px;
+}
+.arrow {
+  width:200px;
+  height:80px;
+  line-height:50px;
+  position:absolute;
+  top:875px;
+  left:260px;
+  background-color: rgb(180,41,46);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 71px;
+}
+.rightarrow {
+ width: 0;
+ height: 0;
+ border-top: 40px solid transparent;
+ border-bottom: 40px solid transparent;
+ border-left: 40px solid rgb(180,41,46);
+ top:875px;
+ left:460px;
+ position:absolute;
+}
+.bold1 {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 30px;
+	line-height: 44px;
+}
+.bold2 {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 20px;
+	line-height: 44px;
+}
+.bold3{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+.bold4{
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	margin-top: 175px;
+	line-height: 50px;
+	padding-top: -0px;
+}
+#container3 {
+	display: flex;
+	margin:auto;
+	width:925px;
+	height: 280px;
+  	background: white;
+  	margin-left: 5px;
+}
+.skatedecks {
+	display: flex;
+	background: white;
+	width: 100%;
+	justify-content: space-around;
+	height: 250px;
+	padding-top: 10px;
+}
+#container4 {
+	width:925px;
+	height: 330px;
+	background: white;
+	margin-left: 5px;
+	display: flex;
+	margin: 20px;
+	margin-left: 5px;
+	flex-wrap: wrap;
+}
+.french{
+	width: 480px;
+	height: 200px;
+	background-color: ;
+}
+div h1{
+	font-size:25px;
+	margin-left: 20px;
+	color: rgb(50,51,46);
+}
+#container4 div p{
+	font-size: 15px;
+	margin-left: 20px;
+}
+.boxes{
+	margin-left: 25px;
+	margin-top: 30px;
+	background-color: ;
+}
+#line1{
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	width:390px;
+	padding-left: 5px;
+	border-top: 5px solid rgb(171,171,171);
+	border-left:5px solid rgb(171,171,171);
+	border-bottom: 2px solid rgb(171,171,171);
+	border-right:1px solid rgb(171,171,171);
+}
+#line2{
+	margin-bottom: 25px;
+	padding-bottom: 10px;
+	width:390px;
+	padding-left: 5px;
+	border-top: 5px solid rgb(171,171,171);
+	border-left:5px solid rgb(171,171,171);
+	border-bottom: 2px solid rgb(171,171,171);
+	border-right:1px solid rgb(171,171,171);
+}
+#line3{
+	margin-bottom: 25px;
+	width: 390px;
+	height:80px;
+	padding-left: 5px;
+	border-top: 5px solid rgb(171,171,171);
+	border-left:5px solid rgb(171,171,171);
+	border-bottom: 2px solid rgb(171,171,171);
+	border-right:1px solid rgb(171,171,171);
+}
+input[type=submit] {
+	width: 249px;
+	height: 40px;
+	background-color: rgb(180,41,46);
+	float: left;
+	color: white;
+	margin-left: 153px;
+}
+.icons{
+	display: flex;
+	background-color:;
+	width: 430px;
+	height:auto;
+	margin-top: -113px;
+    margin-left: 20px;
+
+}
+
+#facbook{
+	width: 40px;
+	height: 40px;
+	margin-right: 5px;
+}
+#rss{
+	width: 40px;
+	height:40px;
+	margin-right: 5px;
+}
+#twitter{
+	width:40px;
+	height:40px;
+	margin-right: 5px;
+}
+#youtube{
+	width:40px;
+	height:40px;
+}
+
+
+
+
